@@ -1,0 +1,235 @@
+{
+  "active": true,
+  "common": {
+    "id": "left",
+    "active": true,
+    "size": 58,
+    "diameter": 18.46197339866,
+    "ringSize": "18",
+    "ringSizeSystem": "PL",
+    "type": "profile",
+    "engraving": {
+      "config3D": [
+        {
+          "type": "image",
+          "height": 1.7,
+          "paddingTop": 0.5,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "carveType": "laser",
+          "url": "https://stelmach.services.confmetrix.com/jv/api/assets/62c29a6c938aa0f11d3cb7fd?height=256",
+          "rotation": -90
+        },
+        {
+          "type": "text",
+          "height": 0.9,
+          "paddingTop": 0.5,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "carveType": "laser",
+          "font": "arial",
+          "text": "Au585"
+        },
+        {
+          "type": "text",
+          "height": 1.6,
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 5,
+          "paddingLeft": 0,
+          "carveType": "laser",
+          "font": "italliano",
+          "text": "Mariusz  u226517.06.2023"
+        }
+      ]
+    },
+    "hasReal3d": true,
+    "engravingSpot": [
+      {
+        "spot": "inner",
+        "textFont": "italliano",
+        "textDistribution": "normal",
+        "carveType": "laser",
+        "iesPreviews": {
+          "original": null,
+          "cropped": null
+        },
+        "ieLayout": [
+          {
+            "content": "https://stelmach.services.confmetrix.com/jv/api/assets/62c29a6c938aa0f11d3cb7fd",
+            "rotation": 0,
+            "type": "image",
+            "height": 1.7,
+            "clearToHeight": false,
+            "visibility": {
+              "preview": true,
+              "editor": true,
+              "production": true
+            },
+            "marginRight": 0.5,
+            "marginLeft": 0,
+            "yShift": 0
+          },
+          {
+            "font": "arial",
+            "content": "Au585",
+            "type": "text",
+            "height": 0.9,
+            "clearToHeight": false,
+            "visibility": {
+              "preview": true,
+              "editor": true,
+              "production": true
+            },
+            "marginRight": 0.5,
+            "marginLeft": 0,
+            "yShift": 0
+          },
+          {
+            "font": "italliano",
+            "content": "Mariusz  u226517.06.2023",
+            "type": "text",
+            "height": 1.6,
+            "clearToHeight": true,
+            "visibility": {
+              "preview": true,
+              "editor": true,
+              "production": true
+            },
+            "marginRight": 0,
+            "marginLeft": 5,
+            "yShift": 0
+          }
+        ],
+        "hasText": true,
+        "enabled": true,
+        "ieEnabled": false,
+        "textEnabled": true,
+        "hasIE": false,
+        "hasVisualIE": false,
+        "ieSession": null,
+        "text": "Mariusz  u226517.06.2023",
+        "replacedText": "Mariusz  u226517.06.2023",
+        "textLength": 20,
+        "symbols": [
+          {
+            "id": "double-heart",
+            "position": 9
+          }
+        ],
+        "engravingSpot": []
+      }
+    ]
+  },
+  "profile": {
+    "profileId": "D8",
+    "shank": {
+      "width": 4,
+      "height": 1.3,
+      "slope": 0,
+      "type": "Simple",
+      "parts": {
+        "inner": {
+          "radius": 6.05,
+          "edge": {
+            "type": "round",
+            "size": 0.3
+          }
+        },
+        "outer": {
+          "radius": 0,
+          "edge": {
+            "type": "bevel",
+            "size": 0.4
+          }
+        }
+      }
+    },
+    "division": {
+      "cutType": "vertical",
+      "category": "one-color",
+      "parts": [
+        {
+          "rate": 1,
+          "width": 4,
+          "height": 1.3,
+          "innerRadius": 9.23098669933,
+          "surface": {
+            "inner": "polished",
+            "outer": "polished"
+          },
+          "volume": 0.2850260713291,
+          "weight": 3.733841534411,
+          "alloy": {
+            "id": "585/yellow",
+            "mainMetal": "au",
+            "density": 13.1,
+            "color": "yellow",
+            "fineness": 585,
+            "rhodinated": false,
+            "ruthinated": false
+          }
+        }
+      ],
+      "mergeDiscs": [
+        {
+          "alloy": {
+            "id": "585/yellow",
+            "mainMetal": "au",
+            "density": 13.1,
+            "color": "yellow",
+            "fineness": 585
+          },
+          "width": 4,
+          "height": 1.3,
+          "volume": 0.2850260713291,
+          "grooveVolume": 0.001047222391706,
+          "weight": 3.733841534411,
+          "grooveWeight": 0.01371861333135,
+          "bounding": {
+            "left": 0,
+            "right": 0
+          },
+          "boundingWidth": 4
+        }
+      ]
+    },
+    "edges": [],
+    "grooves": [
+      {
+        "type": "design",
+        "form": "v-groove-120",
+        "size": {
+          "width": 0.35,
+          "depth": 0.1,
+          "angle": 120,
+          "radius": null,
+          "perlageWidth": null
+        },
+        "surface": "polished",
+        "color": null,
+        "orientation": "vertical",
+        "position": 2,
+        "middleLine": {
+          "offset": 2,
+          "sine": {
+            "amplitude": 0,
+            "numberOfCycles": 1,
+            "shiftAngle": 0
+          }
+        }
+      }
+    ],
+    "stoneLayout": [],
+    "decors": []
+  },
+  "specific": {
+    "stoneCount": 0,
+    "stoneSumCarat": 0,
+    "fairtrade": false
+  },
+  "id": "left",
+  "name": "Ring 1"
+}

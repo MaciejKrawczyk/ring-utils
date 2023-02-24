@@ -1,0 +1,180 @@
+{
+  "active": true,
+  "common": {
+    "id": "right",
+    "active": true,
+    "size": 65,
+    "diameter": 20.69014260195,
+    "ringSize": "25",
+    "ringSizeSystem": "PL",
+    "type": "profile",
+    "engraving": {
+      "config3D": [
+        {
+          "type": "image",
+          "height": 1.7,
+          "paddingTop": 0.5,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "carveType": "laser",
+          "url": "https://stelmach.services.confmetrix.com/jv/api/assets/62c29a6c938aa0f11d3cb7fd?height=256",
+          "rotation": -90
+        },
+        {
+          "type": "text",
+          "height": 0.9,
+          "paddingTop": 0.5,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "carveType": "laser",
+          "font": "arial",
+          "text": "Au585"
+        }
+      ]
+    },
+    "hasReal3d": true,
+    "engravingSpot": [
+      {
+        "spot": "inner",
+        "textFont": "arial",
+        "textDistribution": "normal",
+        "carveType": "laser",
+        "iesPreviews": {
+          "original": null,
+          "cropped": null
+        },
+        "ieLayout": [
+          {
+            "content": "https://stelmach.services.confmetrix.com/jv/api/assets/62c29a6c938aa0f11d3cb7fd",
+            "rotation": 0,
+            "type": "image",
+            "height": 1.7,
+            "clearToHeight": false,
+            "visibility": {
+              "preview": true,
+              "editor": true,
+              "production": true
+            },
+            "marginRight": 0.5,
+            "marginLeft": 0,
+            "yShift": 0
+          },
+          {
+            "font": "arial",
+            "content": "Au585",
+            "type": "text",
+            "height": 0.9,
+            "clearToHeight": false,
+            "visibility": {
+              "preview": true,
+              "editor": true,
+              "production": true
+            },
+            "marginRight": 0.5,
+            "marginLeft": 0,
+            "yShift": 0
+          }
+        ],
+        "hasText": false,
+        "enabled": true,
+        "ieEnabled": false,
+        "textEnabled": true,
+        "hasIE": false,
+        "hasVisualIE": false,
+        "ieSession": null,
+        "text": "",
+        "replacedText": "",
+        "textLength": 0,
+        "symbols": [],
+        "engravingSpot": []
+      }
+    ]
+  },
+  "profile": {
+    "profileId": "D1",
+    "shank": {
+      "width": 5.5,
+      "height": 1.3,
+      "slope": 0,
+      "type": "Simple",
+      "parts": {
+        "inner": {
+          "radius": 7.15,
+          "edge": {
+            "type": "round",
+            "size": 0.3
+          }
+        },
+        "outer": {
+          "radius": 0,
+          "edge": {
+            "type": "round",
+            "size": 0.3
+          }
+        }
+      }
+    },
+    "division": {
+      "cutType": "vertical",
+      "category": "one-color",
+      "parts": [
+        {
+          "rate": 1,
+          "width": 5.5,
+          "height": 1.3,
+          "innerRadius": 10.34507130097,
+          "surface": {
+            "inner": "polished",
+            "outer": "polished"
+          },
+          "volume": 0.424595003392,
+          "weight": 5.562194544435,
+          "alloy": {
+            "id": "585/yellow",
+            "mainMetal": "au",
+            "density": 13.1,
+            "color": "yellow",
+            "fineness": 585,
+            "rhodinated": false,
+            "ruthinated": false
+          }
+        }
+      ],
+      "mergeDiscs": [
+        {
+          "alloy": {
+            "id": "585/yellow",
+            "mainMetal": "au",
+            "density": 13.1,
+            "color": "yellow",
+            "fineness": 585
+          },
+          "width": 5.5,
+          "height": 1.3,
+          "volume": 0.424595003392,
+          "grooveVolume": 0,
+          "weight": 5.562194544435,
+          "grooveWeight": 0,
+          "bounding": {
+            "left": 0,
+            "right": 0
+          },
+          "boundingWidth": 5.5
+        }
+      ]
+    },
+    "edges": [],
+    "grooves": [],
+    "stoneLayout": [],
+    "decors": []
+  },
+  "specific": {
+    "stoneCount": 0,
+    "stoneSumCarat": 0,
+    "fairtrade": false
+  },
+  "id": "right",
+  "name": "Ring 2"
+}

@@ -1,0 +1,206 @@
+{
+  "active": true,
+  "common": {
+    "id": "right",
+    "active": true,
+    "size": 61,
+    "diameter": 19.41690305721,
+    "ringSize": "61",
+    "ringSizeSystem": "EU",
+    "type": "profile",
+    "engraving": {
+      "config3D": [
+        {
+          "type": "image",
+          "height": 1.7,
+          "paddingTop": 0.5,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "carveType": "laser",
+          "url": "https://stelmach.services.confmetrix.com/jv/api/assets/62c29a6c938aa0f11d3cb7fd?height=256",
+          "rotation": -90
+        },
+        {
+          "type": "text",
+          "height": 0.9,
+          "paddingTop": 0.5,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "carveType": "laser",
+          "font": "arial",
+          "text": "Au585"
+        },
+        {
+          "type": "text",
+          "height": 2.2,
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 5,
+          "paddingLeft": 0,
+          "carveType": "laser",
+          "font": "arial",
+          "text": "Barbora 1.7.2023"
+        }
+      ]
+    },
+    "hasReal3d": true,
+    "engravingSpot": [
+      {
+        "spot": "inner",
+        "textFont": "arial",
+        "textDistribution": "normal",
+        "carveType": "laser",
+        "iesPreviews": {
+          "original": null,
+          "cropped": null
+        },
+        "ieLayout": [
+          {
+            "content": "https://stelmach.services.confmetrix.com/jv/api/assets/62c29a6c938aa0f11d3cb7fd",
+            "rotation": 0,
+            "type": "image",
+            "height": 1.7,
+            "clearToHeight": false,
+            "visibility": {
+              "preview": true,
+              "editor": true,
+              "production": true
+            },
+            "marginRight": 0.5,
+            "marginLeft": 0,
+            "yShift": 0
+          },
+          {
+            "font": "arial",
+            "content": "Au585",
+            "type": "text",
+            "height": 0.9,
+            "clearToHeight": false,
+            "visibility": {
+              "preview": true,
+              "editor": true,
+              "production": true
+            },
+            "marginRight": 0.5,
+            "marginLeft": 0,
+            "yShift": 0
+          },
+          {
+            "font": "arial",
+            "content": "Barbora 1.7.2023",
+            "type": "text",
+            "height": 2.2,
+            "clearToHeight": true,
+            "visibility": {
+              "preview": true,
+              "editor": true,
+              "production": true
+            },
+            "marginRight": 0,
+            "marginLeft": 5,
+            "yShift": 0
+          }
+        ],
+        "hasText": true,
+        "enabled": true,
+        "ieEnabled": false,
+        "textEnabled": true,
+        "hasIE": false,
+        "hasVisualIE": false,
+        "ieSession": null,
+        "text": "Barbora 1.7.2023",
+        "replacedText": "Barbora 1.7.2023",
+        "textLength": 16,
+        "symbols": [],
+        "engravingSpot": []
+      }
+    ]
+  },
+  "profile": {
+    "profileId": "D6",
+    "shank": {
+      "width": 5.5,
+      "height": 1.1,
+      "slope": 0,
+      "type": "Simple",
+      "parts": {
+        "inner": {
+          "radius": 14.45,
+          "edge": {
+            "type": "round",
+            "size": 0.2412493917776
+          }
+        },
+        "outer": {
+          "radius": 8.42,
+          "edge": {
+            "type": "round",
+            "size": 0.2412493917776
+          }
+        }
+      }
+    },
+    "division": {
+      "cutType": "vertical",
+      "category": "one-color",
+      "parts": [
+        {
+          "rate": 1,
+          "width": 5.5,
+          "height": 1.1,
+          "innerRadius": 9.708451528606,
+          "surface": {
+            "inner": "polished",
+            "outer": "m11"
+          },
+          "volume": 0.3024295403018,
+          "weight": 3.871098115863,
+          "alloy": {
+            "id": "585/white",
+            "mainMetal": "au",
+            "density": 12.8,
+            "color": "white",
+            "fineness": 585,
+            "rhodinated": true,
+            "ruthinated": false
+          }
+        }
+      ],
+      "mergeDiscs": [
+        {
+          "alloy": {
+            "id": "585/white",
+            "mainMetal": "au",
+            "density": 12.8,
+            "color": "white",
+            "fineness": 585
+          },
+          "width": 5.5,
+          "height": 1.1,
+          "volume": 0.3024295403018,
+          "grooveVolume": 0,
+          "weight": 3.871098115863,
+          "grooveWeight": 0,
+          "bounding": {
+            "left": 0,
+            "right": 0
+          },
+          "boundingWidth": 5.5
+        }
+      ]
+    },
+    "edges": [],
+    "grooves": [],
+    "stoneLayout": [],
+    "decors": []
+  },
+  "specific": {
+    "stoneCount": 0,
+    "stoneSumCarat": 0,
+    "fairtrade": false
+  },
+  "id": "right",
+  "name": "Ring 2"
+}
